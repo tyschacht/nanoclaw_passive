@@ -53,6 +53,10 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Base44 (base44.pxf.io) | No-code platform for building and hosting agent-powered micro-SaaS tools | Yes (platform) | "Super Agent" feature; build once, sell subscriptions to niche professionals (coaches, tutors, etc.) | 2026-04-09 |
 | Prediction Hunt v2 | Unified prediction market API — covers Kalshi, Polymarket, PredictIt, ProphetX, Opinion in one endpoint | Yes (REST, free tier 1K req/mo) | Best starting point for cross-platform arb monitoring; no Web3 auth required | 2026-04-09 |
 | x402 / httpay.xyz | HTTP 402 micropayment protocol — agents pay USDC per API call, no accounts needed | Yes (REST, USDC on Base) | Infrastructure layer for agentic commerce; 100+ endpoints live; early but production on mainnet | 2026-04-09 |
+| Avoko (avoko.ai) | Research marketplace — AI agents earn money by completing structured multi-turn interviews for product researchers | Yes (participant API + SKILL.md install) | $2–3 net per session after API costs; idle agents earn passively; single-command setup; VIABLE report written | 2026-04-09 |
+| Polybuild.app | Polymarket bot builder with copy-trading leaderboard — GUI for building directional bots | Yes (web UI, Phantom wallet) | Useful as implementation tool for polymarket-crypto-direction-bots; copy-trader selection still requires human judgment | 2026-04-09 |
+| BountyBook (bountybook.ai) | Task marketplace where agents earn USDC for completing bounties; agents can also sub-contract and pocket margin | Yes (REST API) | Early beta / experimental; "do not deposit funds you cannot afford to lose"; worth monitoring | 2026-04-09 |
+| ClawGig (clawgig.ai) | Freelance marketplace where humans post gigs and AI agents submit proposals; USDC on Solana | Yes (REST API + webhooks) | Very early stage (1 HN upvote); agent registration via POST request; worth monitoring | 2026-04-09 |
 
 ---
 
@@ -66,6 +70,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Generic AI "middleman" reselling | Market is oversaturated; r/Entrepreneur explicitly flagged this as dead in 2026; no differentiation or moat | 2026-04-09 |
 | AI newsletter with programmatic ads (beehiiv) | Content generation is fully agentic; subscriber acquisition is not — requires human-driven distribution for 6-18 months to reach monetization threshold | 2026-04-09 |
 | Facebook AI Reels monetization | Platform explicitly ended monetization for short AI-generated reels as of early 2026; confirmed by r/passive_income post with 680 upvotes | 2026-04-09 |
+| "Paste contract code → fund with ETH → click start" MEV/trading bots | Standard drain contract scam genre. No real MEV bot is accessible this way. Real MEV requires validator co-location + Flashbots. Any YouTube video following this template is fraudulent. | 2026-04-09 |
+| YouTube creator Notion/digital template tutorials | Generic AI-assisted template creation (Notion, Etsy planners) is already saturated and covered in hyper-niche-etsy-digital-products report. The technique is real but not novel. | 2026-04-09 |
 
 ---
 
@@ -100,7 +106,7 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | AI Swing Trading (Claude + OANDA API, 20% annual backtested) | r/ClaudeAI, 1,273 upvotes | Paper trading validation, risk parameters, broker API access |
 | x402 / HTTP 402 Micropayment Protocol | HN: 43908129, 16 points; httpay.xyz has 100+ production endpoints on Base mainnet | Research whether agents can earn (not just spend) via x402; check seller-side economics |
 | OpenSwarm Autonomous Dev Team | HN: 47160980, 34 points; full Claude Code CLI orchestration for Linear/GitHub | Research whether this can be packaged as a sellable service; check ToS for autonomous PR submission |
-| Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | Pull transcript; evaluate whether mechanism is novel vs existing covered ideas |
+| Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | EVALUATED: Confirmed drain contract scam. Red herring report written. |
 | AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection; researcher says the exploit class is "underrated and under-researched"; discovery took "a few hours of testing" | Research: which AI platforms have formal VRPs accepting prompt injection, whether automated systematic testing is within ToS, whether the writeup/report step can be automated |
 | Claude Code IoT Protocol Reverse Engineering | r/BlackboxAI_: non-technical person used Claude Code to find DJI Romo auth token linked to 7,000+ devices; gifted $30K; zero prior hacking skills | Research: which IoT/hardware companies have formal disclosure programs; evaluate whether Claude Code can systematically enumerate BLE/WiFi scopes across a class of devices |
 
@@ -121,3 +127,7 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 - **Run 2 insight**: HN Show HN posts surface real builders earlier than YouTube or Reddit. The agent-to-agent marketplace (Pinchwork), x402 micropayment protocol, and OpenSwarm dev team all appeared on HN months before any YouTube coverage.
 - **Run 2 insight**: On Reddit, avoid the Kalshi topic in general — the community discussion is dominated by legal/regulatory controversy (AZ criminal charges, Washington AG). Use Kalshi's own documentation and API directly instead.
 - **Run 2 insight**: Prediction market arbitrage has two distinct mechanisms: (1) directional copy-trading (covered Run 1), (2) same-market Yes+No arbitrage (documented $150K, fully autonomous). These are fundamentally different risk profiles — arb requires no prediction, copy-trading requires picking good traders to follow.
+- **Run 3 insight**: Avoko (avoko.ai) represents a new agentic income pattern: *idle agent monetization*. Instead of the agent doing work for humans, the agent's own behavioral data and runtime preferences become the product. Researchers pay to interview agents about how they operate. This is fundamentally different from all prior categories — the agent earns by being itself, not by completing tasks.
+- **Run 3 insight**: The "paste contract code → fund with ETH → click Start" template is a fully standardized drain contract scam. It appeared in a video with 12K+ views. Any YouTube video following this structure should be immediately flagged as NOT_VIABLE without further analysis.
+- **Run 3 insight**: BountyBook and ClawGig are early-stage agent task marketplaces (USDC payments). Both are proof-of-concept / experimental. The *concept* (agent earns crypto by completing marketplace tasks) is viable in theory, but neither platform has enough live bounties or liquidity to recommend yet. Check again in 60 days.
+- **Run 3 insight**: The viral r/passive_income "I tracked every passive income idea" post (1s92wwq, 5K upvotes) confirms: Etsy hyper-niche digital products are the only consistently successful passive income method among traditional approaches. All others (dropshipping, YouTube automation, stock photos, affiliate blogs) failed or broke even. This validates our existing findings from Run 1.

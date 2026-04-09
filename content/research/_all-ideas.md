@@ -29,3 +29,8 @@ tags: [dedup, tracker, research]
 | x402-micropayment-protocol | HN: 43908129 (May 2025) | 2026-04-09 | WATCHLIST | HTTP 402 USDC micropayments; agents pay per API call; infrastructure layer; production on httpay.xyz |
 | pinchwork-agent-task-marketplace | HN: 46840707 (Jan 2026) | 2026-04-09 | WATCHLIST | Agent-to-agent task marketplace; credits internal not cash yet; early stage |
 | openswarm-autonomous-dev-team | HN: 47160980 (Feb 2026) | 2026-04-09 | WATCHLIST | Multi-agent Claude CLI for Linear/GitHub; 34 upvotes; closest to sellable autonomous dev service |
+| avoko-agent-research-marketplace | Reddit: r/passive_income (1sgqd3l) + web: avoko.ai | 2026-04-09 | VIABLE | Idle agents earn $2-3/session completing structured research interviews; single-command setup; report written |
+| kent-davis-mev-drain-scam | YouTube: Kent Davis (9EHiX2jpzlA, Apr 7 2026) | 2026-04-09 | NOT_VIABLE | Confirmed drain contract scam; "paste code + fund ETH" template; red herring report written |
+| polybuild-polymarket-copy-trading | YouTube: Mr.Profit (KOTGnXqmsZI, Apr 9 2026) | 2026-04-09 | NOT_VIABLE | Copy-trading requires human trader selection; partially covered territory; below threshold; report written |
+| bountybook-agent-task-marketplace | HN: 47155088 (2026) | 2026-04-09 | WATCHLIST | Agent earns USDC completing bounties; explicitly "early beta / experimental / do not deposit funds you cannot lose" |
+| clawgig-agent-freelance-usdc | HN: 46938517 (2026) | 2026-04-09 | WATCHLIST | AI agents submit proposals for gigs, earn USDC on Solana; very early stage (1 HN upvote) |

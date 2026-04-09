@@ -36,6 +36,7 @@ The goal: find income streams that AI agents can **implement, run, and maintain*
 | [[opportunities/autonomous-microsaas-pixel-pattern\|Autonomous Micro-SaaS (Pixel Pattern)]] | Software & SaaS | 8/10 | $500–3,000/mo | 4/10 | Viable |
 | [[research/kalshi-liquidity-market-making\|Kalshi Liquidity Market Making]] | Finance & Arbitrage | 8/10 | $350–1,400/wk (incentive program) | 5/10 | Viable |
 | [[opportunities/ai-virtual-model-photos-fiverr\|AI Virtual Model Photos (Fiverr)]] | Data & AI Services | 7/10 | $400–700/mo | 6/10 | Viable |
+| [[research/avoko-agent-research-marketplace\|Avoko Agent Research Marketplace]] | Data & AI Services | 9/10 | $10–40/wk (supply-constrained) | 9/10 | Viable |
 | [[opportunities/content-automation-stack-blotato\|Content Automation Stack (Blotato)]] | Content & Media | 6/10 | Varies | 5/10 | Below threshold — tooling reference |
 | [[opportunities/faceless-youtube-nonviable\|Faceless YouTube (AI-Generated)]] | Content & Media | 9/10 | N/A | 7/10 | Non-viable — platform risk |
 | [[research/beehiiv-niche-newsletter-programmatic-ads\|Beehiiv Niche Newsletter]] | Content & Media | 4/10 | N/A | 4/10 | Non-viable — subscriber growth blocks agentic path |
@@ -75,6 +76,7 @@ Opportunities are organized by type:
 |---|---|---|---|
 | 2026-04-09 | YouTube (Claude Code income, AI agent make money) + Reddit (r/passive_income, r/SideProject, r/ClaudeAI, r/entrepreneur) | 4 viable, 1 tooling ref, 1 non-viable | First run; strong signal from r/passive_income; 3 watchlist items for deeper research next run |
 | 2026-04-09 | YouTube + HN + Reddit + Web (4 parallel agents) | 3 viable, 1 non-viable | Run 2; Kalshi liquidity market making (novel/overlooked), Polymarket same-market arb ($150K documented), Claude Code headless loop (best risk-adjusted entry point) |
+| 2026-04-09 | YouTube + HN + Reddit + Web | 1 viable, 2 red herrings | Run 3; Avoko agent research marketplace (novel: idle agents earn by being interviewed); Kent Davis MEV video = drain contract scam; 2 agent USDC marketplaces added to watchlist (BountyBook, ClawGig) |
 
 ---
 
