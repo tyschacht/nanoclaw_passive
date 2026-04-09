@@ -25,11 +25,16 @@ The goal: find income streams that AI agents can **implement, run, and maintain*
 
 ## Opportunity Tracker
 
-*All evaluated opportunities with agentic feasibility scores. Updated as research runs.*
+*All evaluated opportunities with agentic feasibility scores. Updated as research runs. Sorted by agentic feasibility.*
 
 | Opportunity | Category | Agentic Feasibility | Revenue Potential | Effort to Launch | Status |
 |---|---|---|---|---|---|
-| *No entries yet — first research run pending* | | | | | |
+| [[opportunities/polymarket-crypto-direction-bots\|Polymarket Crypto Direction Bots]] | Finance & Arbitrage | 9/10 | $400–500/mo | 4/10 | Viable |
+| [[opportunities/hyper-niche-etsy-digital-products\|Hyper-Niche Etsy Digital Products]] | Marketplaces | 8/10 | $400–800/mo per niche | 8/10 | Viable |
+| [[opportunities/autonomous-microsaas-pixel-pattern\|Autonomous Micro-SaaS (Pixel Pattern)]] | Software & SaaS | 8/10 | $500–3,000/mo | 4/10 | Viable |
+| [[opportunities/ai-virtual-model-photos-fiverr\|AI Virtual Model Photos (Fiverr)]] | Data & AI Services | 7/10 | $400–700/mo | 6/10 | Viable |
+| [[opportunities/content-automation-stack-blotato\|Content Automation Stack (Blotato)]] | Content & Media | 6/10 | Varies | 5/10 | Below threshold — tooling reference |
+| [[opportunities/faceless-youtube-nonviable\|Faceless YouTube (AI-Generated)]] | Content & Media | 9/10 | N/A | 7/10 | Non-viable — platform risk |
 
 ---
 
@@ -64,7 +69,7 @@ Opportunities are organized by type:
 
 | Date | Focus | Opportunities Found | Notes |
 |---|---|---|---|
-| *Pending first run* | | | |
+| 2026-04-09 | YouTube (Claude Code income, AI agent make money) + Reddit (r/passive_income, r/SideProject, r/ClaudeAI, r/entrepreneur) | 4 viable, 1 tooling ref, 1 non-viable | First run; strong signal from r/passive_income; 3 watchlist items for deeper research next run |
 
 ---
 
