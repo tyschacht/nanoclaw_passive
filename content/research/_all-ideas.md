@@ -20,5 +20,12 @@ tags: [dedup, tracker, research]
 | job-search-automation-saas | Reddit: r/SideProject (1sad1we) | 2026-04-09 | WATCHLIST | 516 evals/66 apps zero manual; productizable; needs deeper research before report |
 | ai-swing-trading-broker-api | Reddit: r/ClaudeAI (1salhpg) | 2026-04-09 | WATCHLIST | Claude + OANDA; 20% annual in backtesting; high risk; needs deeper research |
 | ai-operations-sme-retainer | Reddit: r/Entrepreneur (1rxmtrk) | 2026-04-09 | WATCHLIST | Fix one workflow fast → monthly retainer; agentic score ~6; more consulting than passive |
-| kalshi-bug-bounty | Pre-existing (agent-memory) | 2026-04-09 | WATCHLIST | $25-100/bug; fully autonomous scanner viable; low-to-mid yield |
+| kalshi-bug-bounty | Pre-existing (agent-memory) | 2026-04-09 | COVERED | Now covered by claude-code-headless-income-loop report (autocalch skill) |
 | polymarket-trading-arbitrage | Pre-existing (agent-memory) | 2026-04-09 | COVERED | See polymarket-crypto-direction-bots |
+| kalshi-liquidity-market-making | Web: Kalshi help center + API docs | 2026-04-09 | VIABLE | $10-1000/day incentive; 0% fees; free REST API; through Sept 2026; report written |
+| polymarket-same-market-arbitrage | Web: CoinDesk Feb 2026 + YouTube corroboration | 2026-04-09 | VIABLE | $150K documented; Yes+No arb on 5-min contracts; fully autonomous; report written |
+| claude-code-headless-income-loop | YouTube: All About AI (3hioz8dlTFs, Apr 8 2026) | 2026-04-09 | VIABLE | SKILL.md + while loop + claude -p flag; $100-200/wk per skill demonstrated; report written |
+| beehiiv-niche-newsletter-programmatic-ads | Web: beehiiv platform data + Cyber Corsairs case | 2026-04-09 | NOT_VIABLE | Content agentic; subscriber growth requires human effort; red herring report written |
+| x402-micropayment-protocol | HN: 43908129 (May 2025) | 2026-04-09 | WATCHLIST | HTTP 402 USDC micropayments; agents pay per API call; infrastructure layer; production on httpay.xyz |
+| pinchwork-agent-task-marketplace | HN: 46840707 (Jan 2026) | 2026-04-09 | WATCHLIST | Agent-to-agent task marketplace; credits internal not cash yet; early stage |
+| openswarm-autonomous-dev-team | HN: 47160980 (Feb 2026) | 2026-04-09 | WATCHLIST | Multi-agent Claude CLI for Linear/GitHub; 34 upvotes; closest to sellable autonomous dev service |

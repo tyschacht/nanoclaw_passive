@@ -29,12 +29,16 @@ The goal: find income streams that AI agents can **implement, run, and maintain*
 
 | Opportunity | Category | Agentic Feasibility | Revenue Potential | Effort to Launch | Status |
 |---|---|---|---|---|---|
+| [[research/claude-code-headless-income-loop\|Claude Code Headless Loop (SKILL.md)]] | Automation Architecture | 9/10 | $400–1,200/mo (multi-skill) | 8/10 | Viable |
 | [[opportunities/polymarket-crypto-direction-bots\|Polymarket Crypto Direction Bots]] | Finance & Arbitrage | 9/10 | $400–500/mo | 4/10 | Viable |
+| [[research/polymarket-same-market-arbitrage\|Polymarket Same-Market Arbitrage]] | Finance & Arbitrage | 9/10 | $400–800/mo | 4/10 | Viable |
 | [[opportunities/hyper-niche-etsy-digital-products\|Hyper-Niche Etsy Digital Products]] | Marketplaces | 8/10 | $400–800/mo per niche | 8/10 | Viable |
 | [[opportunities/autonomous-microsaas-pixel-pattern\|Autonomous Micro-SaaS (Pixel Pattern)]] | Software & SaaS | 8/10 | $500–3,000/mo | 4/10 | Viable |
+| [[research/kalshi-liquidity-market-making\|Kalshi Liquidity Market Making]] | Finance & Arbitrage | 8/10 | $350–1,400/wk (incentive program) | 5/10 | Viable |
 | [[opportunities/ai-virtual-model-photos-fiverr\|AI Virtual Model Photos (Fiverr)]] | Data & AI Services | 7/10 | $400–700/mo | 6/10 | Viable |
 | [[opportunities/content-automation-stack-blotato\|Content Automation Stack (Blotato)]] | Content & Media | 6/10 | Varies | 5/10 | Below threshold — tooling reference |
 | [[opportunities/faceless-youtube-nonviable\|Faceless YouTube (AI-Generated)]] | Content & Media | 9/10 | N/A | 7/10 | Non-viable — platform risk |
+| [[research/beehiiv-niche-newsletter-programmatic-ads\|Beehiiv Niche Newsletter]] | Content & Media | 4/10 | N/A | 4/10 | Non-viable — subscriber growth blocks agentic path |
 
 ---
 
@@ -70,6 +74,7 @@ Opportunities are organized by type:
 | Date | Focus | Opportunities Found | Notes |
 |---|---|---|---|
 | 2026-04-09 | YouTube (Claude Code income, AI agent make money) + Reddit (r/passive_income, r/SideProject, r/ClaudeAI, r/entrepreneur) | 4 viable, 1 tooling ref, 1 non-viable | First run; strong signal from r/passive_income; 3 watchlist items for deeper research next run |
+| 2026-04-09 | YouTube + HN + Reddit + Web (4 parallel agents) | 3 viable, 1 non-viable | Run 2; Kalshi liquidity market making (novel/overlooked), Polymarket same-market arb ($150K documented), Claude Code headless loop (best risk-adjusted entry point) |
 
 ---
 
