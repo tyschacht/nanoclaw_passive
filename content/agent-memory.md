@@ -101,6 +101,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | x402 / HTTP 402 Micropayment Protocol | HN: 43908129, 16 points; httpay.xyz has 100+ production endpoints on Base mainnet | Research whether agents can earn (not just spend) via x402; check seller-side economics |
 | OpenSwarm Autonomous Dev Team | HN: 47160980, 34 points; full Claude Code CLI orchestration for Linear/GitHub | Research whether this can be packaged as a sellable service; check ToS for autonomous PR submission |
 | Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | Pull transcript; evaluate whether mechanism is novel vs existing covered ideas |
+| AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection; researcher says the exploit class is "underrated and under-researched"; discovery took "a few hours of testing" | Research: which AI platforms have formal VRPs accepting prompt injection, whether automated systematic testing is within ToS, whether the writeup/report step can be automated |
+| Claude Code IoT Protocol Reverse Engineering | r/BlackboxAI_: non-technical person used Claude Code to find DJI Romo auth token linked to 7,000+ devices; gifted $30K; zero prior hacking skills | Research: which IoT/hardware companies have formal disclosure programs; evaluate whether Claude Code can systematically enumerate BLE/WiFi scopes across a class of devices |
 
 ---
 
