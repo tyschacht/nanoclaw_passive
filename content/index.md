@@ -38,6 +38,7 @@ The goal: find income streams that AI agents can **implement, run, and maintain*
 | [[opportunities/ai-virtual-model-photos-fiverr\|AI Virtual Model Photos (Fiverr)]] | Data & AI Services | 7/10 | $400–700/mo | 6/10 | Viable |
 | [[research/avoko-agent-research-marketplace\|Avoko Agent Research Marketplace]] | Data & AI Services | 9/10 | $10–40/wk (supply-constrained) | 9/10 | Viable |
 | [[research/ai-google-reviews-b2b-lead-intel\|AI B2B Lead Intel (Google Reviews)]] | Data & AI Services | 7/10 | $900–4,000/mo (3-5 clients) | 5/10 | Viable |
+| [[research/ai-research-reports-smb-service\|AI Research Reports for SMBs ($75/report)]] | Data & AI Services | 7/10 | $1,000–3,000/mo | 6/10 | Viable |
 | [[opportunities/content-automation-stack-blotato\|Content Automation Stack (Blotato)]] | Content & Media | 6/10 | Varies | 5/10 | Below threshold — tooling reference |
 | [[opportunities/faceless-youtube-nonviable\|Faceless YouTube (AI-Generated)]] | Content & Media | 9/10 | N/A | 7/10 | Non-viable — platform risk |
 | [[research/beehiiv-niche-newsletter-programmatic-ads\|Beehiiv Niche Newsletter]] | Content & Media | 4/10 | N/A | 4/10 | Non-viable — subscriber growth blocks agentic path |
@@ -79,7 +80,7 @@ Opportunities are organized by type:
 | 2026-04-09 | YouTube + HN + Reddit + Web (4 parallel agents) | 3 viable, 1 non-viable | Run 2; Kalshi liquidity market making (novel/overlooked), Polymarket same-market arb ($150K documented), Claude Code headless loop (best risk-adjusted entry point) |
 | 2026-04-09 | YouTube + HN + Reddit + Web | 1 viable, 2 red herrings | Run 3; Avoko agent research marketplace (novel: idle agents earn by being interviewed); Kent Davis MEV video = drain contract scam; 2 agent USDC marketplaces added to watchlist (BountyBook, ClawGig) |
 | 2026-04-09 | YouTube (7 queries) + HN + Reddit + Web (4 watchlist items deep-dived) | 1 viable, 7 red herrings | Run 4; AI B2B lead intel via Google Reviews (novel: review pain points → personalized cold email); 4 watchlist items closed as NOT_VIABLE; x402 growing (Stripe+Cloudflare) but seller economics still weak |
-| 2026-04-09 | YouTube (quota exceeded) + HN Algolia + Reddit (7 searches) + Web (6 watchlist items resolved) | 0 viable, 6 red herrings | Run 5; 6 watchlist items resolved as NOT_VIABLE; Stripe MPP confirmed spend-side only; no paid SKILL.md marketplace exists; client acquisition bottleneck kills AI research reports + ElevenAgents + mobile games; 2 new watchlist items added (TaskMarket, BotStall update) |
+| 2026-04-09 | YouTube (quota exceeded) + HN Algolia + Reddit (7 searches) + Web (6 watchlist items resolved) | 1 viable, 5 red herrings | Run 5; AI Research Reports pipeline upgraded to VIABLE (cold email → self-serve Stripe → auto-report → delivery; 7/10 agentic); Stripe MPP spend-side only; no paid SKILL.md marketplace; ElevenAgents + mobile games fail on client acquisition/distribution |
 
 ---
 
