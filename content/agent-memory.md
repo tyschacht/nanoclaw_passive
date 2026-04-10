@@ -69,6 +69,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Prediction Hunt v2 | Cross-platform prediction market arbitrage discovery — matching-markets endpoint + sports-specific endpoint; free tier 1K req/mo | Yes (REST API) | `/api/v2/matching-markets` finds equivalent contracts across Kalshi/Polymarket/PredictIt/ProphetX; sports endpoint is new and covers NBA/NHL/MLB/NCAA | 2026-04-10 |
 | Broker-CLI (brokercli.com) | SKILL.md-native CLI connecting Claude Code to Interactive Brokers + E*Trade; options chains with Greeks, paper trading mode, JSON outputs | Yes (open-source CLI, github: north-brook/broker-cli) | Real tool, truly agent-native. NOT_VIABLE for our income model (capital requirement), but infrastructure worth monitoring. Install: `curl -fsSL https://brokercli.com/install | bash` | 2026-04-10 |
 | Unified.to | Single REST API across 60+ ATS platforms (Greenhouse, Lever, Workable, Ashby) for job application data | Yes (REST API) | Normalizes ATS field schemas; useful for job pipeline automations | 2026-04-09 |
+| toku.agency | AI agent service marketplace — register via API, list services in USD, accept jobs, deliver via API, earn 85% via Stripe Connect | Yes (REST API + Node.js SDK) | First agent marketplace with confirmed real USD transactions; top agent Lily has 5 completed jobs + 5-star review; toku-agent npm SDK with zero deps; 95+ open jobs; 588 agents; VIABLE report written | 2026-04-10 |
+| Whop | Digital product marketplace with 450K+ users — ONLY major platform with API for programmatic product creation, file upload, and experience attachment | Yes (REST API + TypeScript/Python/Ruby SDKs) | Files app ID: `app_5UWRrs7haZZeiQ`; full pipeline: create product → upload file → attach experience → set price → live; 3% fee; VIABLE report written (verify file-to-experience attachment step) | 2026-04-10 |
+| TradingView MCP | MCP server connecting Claude Code to live TradingView chart data (not screenshots — actual live candle values via CDP) | Yes (open-source MCP, github: LewisWJackson/tradingview-mcp-jackson) | 338K view tutorial; reads live chart values, creates Pine Script indicators, generates watchlist morning briefs; does NOT execute trades; pairs with OANDA/broker API for full autonomous stack; 1-shot setup prompt available | 2026-04-10 |
 
 ---
 
@@ -120,6 +123,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "ambient business" AI agents | Reddit/Web | High | Run 5: community term for agentic passive income in r/AIIncomeLab; surfaces concrete practitioner experiments |
 | "agent bounty" USDC earn | Web/HN | Medium | Surfaces new agent task marketplaces (TaskMarket, BountyBook, ClawGig, AgentBounty.org); check new platforms every run |
 | "machine payments" OR "MPP" AI agents earn | Web | Low | Run 5: confirmed spend-side only for Stripe MPP; skip unless there's specific earn-side news |
+| "AI agent" earn USD marketplace site:dev.to | Web | High | Run 8: DEV.to has practitioner-level technical writing about agent income that YouTube misses; "lilyevesinclair" is a reliable author (Claude-based agent, built toku.agency) |
+| toku.agency agent completed jobs | Web | High | Run 8: monitor toku.agency for growing job completion counts; check every 60 days |
+| "every way" OR "all ways" AI agent paid 2026 | Web/DEV.to | Medium | Surfaces comprehensive practitioner guides rather than clickbait YouTube tutorials |
 
 ---
 
@@ -130,7 +136,7 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Idea | Signal | Next Step |
 |---|---|---|
 | WordPress → Custom Site Conversion ($2K/site, Claude does 90%) | r/ClaudeAI thread, 661 upvotes | Research pricing, client acquisition funnel, agentic feasibility of client comms |
-| AI Swing Trading (Claude + OANDA API, 20% annual backtested) | r/ClaudeAI, 1,273 upvotes | Paper trading validation, risk parameters, broker API access |
+| AI Swing Trading (Claude + OANDA API, 20% annual backtested) | r/ClaudeAI, 1,273 upvotes | UPDATED Run 8: TradingView MCP (LewisWJackson/tradingview-mcp-jackson) now provides the signal generation layer (live chart reading, Pine Script, morning brief). Full stack = TradingView MCP (signals) + OANDA API (execution). Still needs paper trading validation before live capital. |
 | OpenSwarm Autonomous Dev Team | HN: 47160980, 34 points; full Claude Code CLI orchestration for Linear/GitHub | Research whether this can be packaged as a sellable service; check ToS for autonomous PR submission |
 | Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | EVALUATED Run 3: Confirmed drain contract scam. Red herring report written. |
 | AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection | EVALUATED Run 4: NOT_VIABLE. Report written. |
@@ -145,11 +151,19 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Bankr x402 Cloud (CLI-deploy + agent discovery) | Launched April 2, 2026. `bankr x402 deploy` = one command to deploy + auto-index in agent discovery layer. Linux Foundation governance. | WATCHLIST: addresses buyer-discovery problem in theory. Still $2.80/avg/seller/day ecosystem-wide. Recheck Q3 2026. |
 | Polymarket USD token migration | Polymarket announced April 6, 2026: replacing USDC.e with Polymarket USD (1:1 USDC-backed). Rebuilt trading engine + new smart contracts. | WATCHLIST: All existing Polymarket bot strategies (maker rebates, same-market arb, cross-platform arb) need collateral handling update. Monitor polymarket.com/blog for migration timeline. |
 | Base44 Creator Marketplace | Feature request "Under Review" on feedback.base44.com (1 upvote). Would allow publishing and selling apps/agents for real money to premium users. | WATCHLIST: NOT live yet. If launched with buyer traffic, Base44 Super Agent SMB service becomes viable. Check in 90 days. |
-| Gumroad API Product Creation (GitHub issue #4019) | antiwork/gumroad repo, opened March 18, 2026. If merged: AI agent builds n8n/automation workflow JSON → publishes to Gumroad via API → passive income. | WATCHLIST: check in 90 days (July 2026). If merged, re-evaluate n8n-gumroad-workflow-templates as VIABLE. |
+| Gumroad API Product Creation (GitHub issue #4019) | antiwork/gumroad repo, opened March 18, 2026. If merged: AI agent builds n8n/automation workflow JSON → publishes to Gumroad via API → passive income. | WATCHLIST: check in 90 days (July 2026). If merged, re-evaluate n8n-gumroad-workflow-templates as VIABLE. NOTE Run 8: Whop has a working product creation API right now — may make Gumroad irrelevant for our purposes. |
 | Needle Workflow Marketplace | YouTube: Needle product channel (Hm3FgS4cbs4, 136 views Mar 24 2026) | Still WATCHLIST: no data found on live marketplace or revenue model. |
 | TaskMarket by Daydreams | DEV.to: OpSpawn case study — 11 agents on €8/mo VPS, USDC competition bounties | NEW Run 5 WATCHLIST: market.daydreams.systems — site mostly empty on visit. Need active bounty count and actual earnings data. Check in 60 days. |
 
 ---
+
+## Notes & Observations (Run 8 additions)
+
+- **Run 8 insight**: toku.agency is the first agent-to-agent service marketplace with confirmed real USD transactions via Stripe Connect. The platform was reportedly built by "Lily", a Claude-based AI agent. As of April 2026: 588 agents, 1,368 services, 95+ open jobs. Top agent has 5 completed jobs + verified review. This is fundamentally different from BountyBook/ClawTasks/TaskMarket (all free or dormant). The toku-agent Node.js SDK (zero deps) makes integration trivial. Current income ceiling ~$50-150/month, but platform is growing. Check in 60 days for completion rate growth.
+- **Run 8 insight**: Whop is the ONLY major digital product marketplace with a working API for programmatic product creation. Confirmed competitors all fail: Gumroad (404 error on product creation, GitHub issue #4019), Lemon Squeezy (read-only), Payhip (coupons only). Whop's API enables: `POST /products` (create listing), file upload via presigned S3 URL, create experience with Files app (`app_id: app_5UWRrs7haZZeiQ`), plan/pricing creation. The Files app ID `app_5UWRrs7haZZeiQ` was discovered from the Whop app store URL. The final "attach file to Files experience" step needs end-to-end verification.
+- **Run 8 insight**: TradingView MCP (github: LewisWJackson/tradingview-mcp-jackson, 338K views on tutorial) connects Claude Code to live TradingView chart data via CDP — reads actual candle values, not screenshots. Can create Pine Script indicators and generate watchlist morning briefs automatically. Critically: does NOT execute trades. This is a signal generation layer. To be a passive income mechanism, it needs pairing with a broker API (OANDA for forex, Alpaca for stocks). This updates the "AI Swing Trading" watchlist item — TradingView MCP solves the signal generation side; broker API solves execution. Full autonomous stack is technically achievable.
+- **Run 8 insight**: All high-value "agent income" content is shifting from YouTube to DEV.to and Medium. Found "Every Way an AI Agent Can Get Paid in 2026" on DEV.to (lilyevesinclair) — this type of practitioner technical writing doesn't appear in YouTube searches. Add DEV.to to regular research sources.
+- **Run 8 insight**: DEV.to article by "lilyevesinclair" (who appears to be Lily, the Claude-based AI agent who built toku.agency) is a reliable source for agent-economy developments. The author writes from first-person agent perspective and covers platforms others miss. Add to search list.
 
 ## Notes & Observations (Run 7 additions)
 

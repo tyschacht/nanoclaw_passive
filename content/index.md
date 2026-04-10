@@ -42,6 +42,8 @@ The goal: find income streams that AI agents can **implement, run, and maintain*
 | [[research/ai-research-reports-smb-service\|AI Research Reports for SMBs ($75/report)]] | Data & AI Services | 7/10 | $1,000–3,000/mo | 6/10 | Viable |
 | [[research/polymarket-maker-rebates-market-making\|Polymarket Market Making (Maker Rebates)]] | Finance & Arbitrage | 9/10 | $40–175/wk at $5-10K capital | 5/10 | Viable |
 | [[research/polymarket-kalshi-cross-platform-arbitrage\|Polymarket + Kalshi Cross-Platform Arbitrage]] | Finance & Arbitrage | 9/10 | $60–300/wk depending on capital | 5/10 | Viable |
+| [[research/toku-agency-ai-agent-marketplace\|toku.agency Agent Service Marketplace]] | Marketplaces | 8/10 | $50–150/mo (growing) | 9/10 | Viable — low current yield, first real USD agent marketplace |
+| [[research/whop-api-digital-products\|Whop API Digital Products]] | Marketplaces | 7/10 | $400–1,200/mo | 6/10 | Viable — only platform with working product creation API |
 | [[opportunities/content-automation-stack-blotato\|Content Automation Stack (Blotato)]] | Content & Media | 6/10 | Varies | 5/10 | Below threshold — tooling reference |
 | [[opportunities/faceless-youtube-nonviable\|Faceless YouTube (AI-Generated)]] | Content & Media | 9/10 | N/A | 7/10 | Non-viable — platform risk |
 | [[research/beehiiv-niche-newsletter-programmatic-ads\|Beehiiv Niche Newsletter]] | Content & Media | 4/10 | N/A | 4/10 | Non-viable — subscriber growth blocks agentic path |
@@ -86,6 +88,7 @@ Opportunities are organized by type:
 | 2026-04-09 | YouTube (quota exceeded) + HN Algolia + Reddit (7 searches) + Web (6 watchlist items resolved) | 3 viable, 4 red herrings | Run 5 (incl. addendum): Needle workflow marketplace VIABLE (8/10 agentic, earn per run, build-once/sell-many); AI Research Reports VIABLE (cold email → self-serve Stripe → auto-report → delivery); audiobook report corrected (Amazon KDP Virtual Voice exists at 40% royalty; still NOT_VIABLE on upload bottleneck) |
 | 2026-04-10 | YouTube + HN Show HN + Reddit hot (r/AIIncomeLab, r/passive_income, r/SideProject, r/ClaudeAI) + Web (5 targeted queries) | 1 viable, 3 red herrings | Run 6: Polymarket Maker Rebates VIABLE (9/10 agentic, 25% rebate on taker fees, expanded to 10 market categories March 2026); AgentBounty.org, ClawTasks, n8n/Gumroad all NOT_VIABLE; Bankr x402 Cloud + Gumroad API issue added to watchlist |
 | 2026-04-10 | YouTube (Mikey No Code transcript) + HN Show HN + Reddit (5 subs) + Web (Prediction Hunt v2, broker-cli, cross-platform arb) | 1 viable, 3 red herrings | Run 7: Polymarket+Kalshi cross-platform arbitrage VIABLE (9/10 agentic, 1.5-4.5% per round trip, sports markets new opportunity via Prediction Hunt v2 API); Polymarket exchange upgrade noted (USD token); broker-cli options selling, Base44 SMB service, Lemon Squeezy/Payhip template APIs all NOT_VIABLE |
+| 2026-04-10 | YouTube + HN Show HN + Reddit (6 subs) + Web (toku.agency, Whop API, DEV.to agent economy) | 2 viable, 1 red herring | Run 8: toku.agency VIABLE (first agent marketplace with real USD Stripe payouts + confirmed transactions, 8/10 agentic); Whop API VIABLE (ONLY digital product platform with working product creation API, Files app_id discovered); TradingView MCP updates swing trading watchlist but doesn't execute trades (NOT standalone viable) |
 
 ---
 
