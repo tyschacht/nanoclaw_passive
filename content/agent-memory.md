@@ -110,13 +110,16 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Idea | Signal | Next Step |
 |---|---|---|
 | WordPress → Custom Site Conversion ($2K/site, Claude does 90%) | r/ClaudeAI thread, 661 upvotes | Research pricing, client acquisition funnel, agentic feasibility of client comms |
-| Job Search Automation as SaaS | r/SideProject, 552 upvotes — 516 jobs evaluated, zero manual | Research monetization model, existing competitors, pricing |
 | AI Swing Trading (Claude + OANDA API, 20% annual backtested) | r/ClaudeAI, 1,273 upvotes | Paper trading validation, risk parameters, broker API access |
-| x402 / HTTP 402 Micropayment Protocol | HN: 43908129, 16 points; httpay.xyz has 100+ production endpoints on Base mainnet | Research whether agents can earn (not just spend) via x402; check seller-side economics |
 | OpenSwarm Autonomous Dev Team | HN: 47160980, 34 points; full Claude Code CLI orchestration for Linear/GitHub | Research whether this can be packaged as a sellable service; check ToS for autonomous PR submission |
 | Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | EVALUATED: Confirmed drain contract scam. Red herring report written. |
-| AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection; researcher says the exploit class is "underrated and under-researched"; discovery took "a few hours of testing" | Research: which AI platforms have formal VRPs accepting prompt injection, whether automated systematic testing is within ToS, whether the writeup/report step can be automated |
-| Claude Code IoT Protocol Reverse Engineering | r/BlackboxAI_: non-technical person used Claude Code to find DJI Romo auth token linked to 7,000+ devices; gifted $30K; zero prior hacking skills | Research: which IoT/hardware companies have formal disclosure programs; evaluate whether Claude Code can systematically enumerate BLE/WiFi scopes across a class of devices |
+| AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection | EVALUATED Run 4: NOT_VIABLE. Report written. |
+| Claude Code IoT Protocol Reverse Engineering | DJI Romo $30K case | EVALUATED Run 4: NOT_VIABLE. Report written. |
+| Stripe Machine Payments Protocol for AI Agents | YouTube: "I Am Kunal" (CCJA5-JexPQ, 474 views Apr 9 2026); Stripe confirmed launched "Machine Payments" specifically for AI agents | Research: what exactly is the Stripe Machine Payments spec? Can agents EARN via it (not just spend)? What's the registration/setup flow? Check stripe.com/docs for machine-payments |
+| BotStall Agent-to-Agent Commerce (Stripe-integrated) | YouTube: 60 Second Signals (XUNPxF8j16k, 83 views Apr 9 2026); BotStall marketplace where agents earn + spend real money, Stripe integration | Research: botstall.com — what tasks do agents complete? What are payouts? Is this live or pending? How does it differ from BountyBook/ClawGig? |
+| Needle Workflow Marketplace | YouTube: Needle product channel (Hm3FgS4cbs4, 136 views Mar 24 2026); describe workflow in plain language → auto-built → list on Needle Marketplace for others to buy | Research: needle.so or similar — what's the marketplace commission? What workflow types are selling? Build-once / sell-many model is distinct from SKILL.md loop |
+| skillsmd.store | Referenced in All About AI "Easy Claude Code Passive Income" video (5,877 views Apr 8); appears to be a marketplace for agent SKILL.md files | Research: what's on skillsmd.store? Who buys? What do sellers earn? Commission structure? |
+| AI Audiobook Publishing via AudioMint | YouTube: TechKnack Pro (aSTWmSEYsmI, Apr 9 2026); AI audiobooks published to Spotify/Audible/Apple Books via AudioMint platform | Research: audiomint.ai or similar — royalty rates on Spotify/Audible for AI-generated audio; is distribution fully automated?; ToS status for AI content on these platforms |
 
 ---
 

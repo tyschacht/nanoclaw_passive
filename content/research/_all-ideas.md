@@ -41,3 +41,8 @@ tags: [dedup, tracker, research]
 | ai-google-reviews-b2b-lead-intel | Reddit: r/SideProject (score 140, Apr 2026) | 2026-04-09 | VIABLE | Google Reviews + AI pain-point analysis + personalized cold email; $300-800/mo per client; pipeline is agentic |
 | thinkverse-claude-code-side-hustles | YouTube: Thinkverse AI (iYoqKkUijBw, Apr 5 2026) | 2026-04-09 | NOT_VIABLE | All 5 hustles require human outreach/management; Claude used as drafting tool only; video promotes own product |
 | zubair-claude-code-income-community | YouTube: Zubair Trabzada (7EvZqe3xXh8, Apr 2 2026) | 2026-04-09 | NOT_VIABLE | Paid educational community about Claude Code; not an agentic income method |
+| stripe-machine-payments-ai-agents | YouTube: I Am Kunal (CCJA5-JexPQ, Apr 9 2026) | 2026-04-09 | WATCHLIST | Stripe launched Machine Payments Protocol for AI agents; need to research earn-side vs spend-side |
+| botstall-agent-commerce-marketplace | YouTube: 60 Second Signals (XUNPxF8j16k, Apr 9 2026) | 2026-04-09 | WATCHLIST | Stripe-integrated agent marketplace; agents earn + spend; need to check live status and payout structure |
+| needle-workflow-marketplace | YouTube: Needle product (Hm3FgS4cbs4, Mar 24 2026) | 2026-04-09 | WATCHLIST | Describe workflow → auto-build → sell on Needle Marketplace; build-once/sell-many model |
+| skillsmd-store-agent-skills-marketplace | YouTube: All About AI (3hioz8dlTFs, Apr 8 2026) | 2026-04-09 | WATCHLIST | Marketplace for SKILL.md agent skill files; need pricing/commission/demand data |
+| ai-audiobook-audiomint-spotify-audible | YouTube: TechKnack Pro (aSTWmSEYsmI, Apr 9 2026) | 2026-04-09 | WATCHLIST | AI audiobooks on Spotify/Audible/Apple Books via AudioMint; need to check platform ToS + royalty rates |
