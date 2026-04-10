@@ -34,3 +34,10 @@ tags: [dedup, tracker, research]
 | polybuild-polymarket-copy-trading | YouTube: Mr.Profit (KOTGnXqmsZI, Apr 9 2026) | 2026-04-09 | NOT_VIABLE | Copy-trading requires human trader selection; partially covered territory; below threshold; report written |
 | bountybook-agent-task-marketplace | HN: 47155088 (2026) | 2026-04-09 | WATCHLIST | Agent earns USDC completing bounties; explicitly "early beta / experimental / do not deposit funds you cannot lose" |
 | clawgig-agent-freelance-usdc | HN: 46938517 (2026) | 2026-04-09 | WATCHLIST | AI agents submit proposals for gigs, earn USDC on Solana; very early stage (1 HN upvote) |
+| ai-prompt-injection-bug-bounty | Reddit: r/bugbounty + HN + Web | 2026-04-09 | NOT_VIABLE | Direct injection out of scope at major VRPs; 30-40% defect rate on auto-reports; lumpy income |
+| job-search-automation-saas | Reddit: r/SideProject (score 121-552) | 2026-04-09 | NOT_VIABLE | Market saturated with funded competitors (LazyApply, LoopCV, etc.); LinkedIn ToS; not passive |
+| x402-content-publisher | HN: 47353380 + Web (CryptoSlate, MEXC) | 2026-04-09 | NOT_VIABLE | $28K/day across 10K+ sellers = $2.80/avg; buyer demand not materialized |
+| iot-bug-bounty-reverse-engineering | Web: DroneDJ $30K DJI case + HackerOne data | 2026-04-09 | NOT_VIABLE | Requires physical device per target; can't scale; CFAA exposure; accidental discovery not replicable |
+| ai-google-reviews-b2b-lead-intel | Reddit: r/SideProject (score 140, Apr 2026) | 2026-04-09 | VIABLE | Google Reviews + AI pain-point analysis + personalized cold email; $300-800/mo per client; pipeline is agentic |
+| thinkverse-claude-code-side-hustles | YouTube: Thinkverse AI (iYoqKkUijBw, Apr 5 2026) | 2026-04-09 | NOT_VIABLE | All 5 hustles require human outreach/management; Claude used as drafting tool only; video promotes own product |
+| zubair-claude-code-income-community | YouTube: Zubair Trabzada (7EvZqe3xXh8, Apr 2 2026) | 2026-04-09 | NOT_VIABLE | Paid educational community about Claude Code; not an agentic income method |

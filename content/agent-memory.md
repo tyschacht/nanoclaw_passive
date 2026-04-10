@@ -57,6 +57,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Polybuild.app | Polymarket bot builder with copy-trading leaderboard — GUI for building directional bots | Yes (web UI, Phantom wallet) | Useful as implementation tool for polymarket-crypto-direction-bots; copy-trader selection still requires human judgment | 2026-04-09 |
 | BountyBook (bountybook.ai) | Task marketplace where agents earn USDC for completing bounties; agents can also sub-contract and pocket margin | Yes (REST API) | Early beta / experimental; "do not deposit funds you cannot afford to lose"; worth monitoring | 2026-04-09 |
 | ClawGig (clawgig.ai) | Freelance marketplace where humans post gigs and AI agents submit proposals; USDC on Solana | Yes (REST API + webhooks) | Very early stage (1 HN upvote); agent registration via POST request; worth monitoring | 2026-04-09 |
+| Apify Google Reviews Scraper | Commercial Google Reviews scraping — returns review text, star ratings, business metadata; REST API | Yes (REST + Node.js SDK) | $25-49/mo for ~10K reviews; commercial service handles ToS liability; used in B2B lead intel workflow | 2026-04-09 |
+| SerpAPI | Legitimate Google Search + Maps API wrapper; no ToS risk for buyer; $50/mo base | Yes (REST API) | Alternative to Apify for Google data; higher cost but cleaner legal standing | 2026-04-09 |
+| Unified.to | Single REST API across 60+ ATS platforms (Greenhouse, Lever, Workable, Ashby) for job application data | Yes (REST API) | Normalizes ATS field schemas; useful for job pipeline automations | 2026-04-09 |
 
 ---
 
@@ -72,6 +75,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Facebook AI Reels monetization | Platform explicitly ended monetization for short AI-generated reels as of early 2026; confirmed by r/passive_income post with 680 upvotes | 2026-04-09 |
 | "Paste contract code → fund with ETH → click start" MEV/trading bots | Standard drain contract scam genre. No real MEV bot is accessible this way. Real MEV requires validator co-location + Flashbots. Any YouTube video following this template is fraudulent. | 2026-04-09 |
 | YouTube creator Notion/digital template tutorials | Generic AI-assisted template creation (Notion, Etsy planners) is already saturated and covered in hyper-niche-etsy-digital-products report. The technique is real but not novel. | 2026-04-09 |
+| "I found X Claude Code side hustles" videos (< 10K views) | Consistently surface human-managed freelance/consulting work where Claude is a drafting tool, not an agent. Not worth pulling transcripts. Skip unless channel is in High-Value Channels list or video > 10K views. | 2026-04-09 |
+| AI IoT hardware bug bounty as scalable income | Requires physical device acquisition per target class; can't be automated end-to-end; CFAA exposure for testing non-owned devices. Each $30K payout is an outlier accidental discovery, not a replicable workflow. | 2026-04-09 |
+| Bug bounty programs (direct prompt injection) | Direct prompt injection and jailbreaks are explicitly OUT OF SCOPE at Google AI VRP (the largest program). OpenAI and Microsoft only pay for cross-user harm or privilege escalation cases — hard to find systematically. | 2026-04-09 |
 
 ---
 
@@ -92,6 +98,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "Polymarket bot tutorial" | YouTube | High | Very specific; surfaces new tooling (Bullpen CLI, polybuild.app); always concrete |
 | "liquidity incentive program" OR "market making bot" | Web | High | Surfaces overlooked exchange subsidy programs; Kalshi was not discussed until direct search |
 | "Show HN" site:news.ycombinator.com "autonomous" "agent" | Web | Medium | HN Show HN posts with "autonomous" filter; surfaces real builders |
+| "Google reviews scraper" lead generation AI | Web/Reddit | Medium | Surfaces tools and services using review data for B2B outreach; growing category |
+| "AI lead generation" site:reddit.com/r/SideProject | Web | High | SideProject builders often share working tools with real revenue; filter for AI + lead gen |
 
 ---
 
@@ -131,3 +139,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 - **Run 3 insight**: The "paste contract code → fund with ETH → click Start" template is a fully standardized drain contract scam. It appeared in a video with 12K+ views. Any YouTube video following this structure should be immediately flagged as NOT_VIABLE without further analysis.
 - **Run 3 insight**: BountyBook and ClawGig are early-stage agent task marketplaces (USDC payments). Both are proof-of-concept / experimental. The *concept* (agent earns crypto by completing marketplace tasks) is viable in theory, but neither platform has enough live bounties or liquidity to recommend yet. Check again in 60 days.
 - **Run 3 insight**: The viral r/passive_income "I tracked every passive income idea" post (1s92wwq, 5K upvotes) confirms: Etsy hyper-niche digital products are the only consistently successful passive income method among traditional approaches. All others (dropshipping, YouTube automation, stock photos, affiliate blogs) failed or broke even. This validates our existing findings from Run 1.
+- **Run 4 insight**: "Review intelligence" is a viable agentic pattern — using platform review data (Google Reviews, Yelp, Trustpilot) to identify business-specific pain points and generate personalized B2B outreach. The key mechanism is matching the buyer's service to the seller's *documented customer complaints*. Apify Google Reviews Scraper handles acquisition; Claude handles analysis + email generation. $300-800/client/month is realistic for done-for-you delivery.
+- **Run 4 insight**: Most YouTube "Claude Code side hustle" videos (Thinkverse AI, Zubair Trabzada, many others) are NOT agentic income tutorials. Claude is used as a drafting tool for human-managed freelance/consulting businesses. Pattern to skip: video titles containing "I found X side hustles" or "how I make money with Claude Code" from small channels (< 10K subscribers, < 5K views). Only pull transcripts from channels documented in agent-memory High-Value Channels list or videos with > 10K views.
+- **Run 4 insight**: x402 protocol got Stripe and Cloudflare as foundation members. Coinbase reports $50M+ in transactions. However, MEXC Analytics still shows $28K/day average volume across 10K+ sellers. Protocol credibility is accelerating faster than economic activity. Recheck x402 seller viability in Q3 2026.
+- **Run 4 insight**: HackerOne paused certain AI-led bug bounty programs (r/technology, score 42) because AI is finding AND auto-remediating bugs faster than humans can validate them. This confirms: AI-powered bug finding IS technically viable; the *market infrastructure* (submission, validation, payment) can't keep pace. Semi-automated (agent finds + drafts report, human reviews + submits) remains the right workflow.
+- **Run 4 insight**: The four watchlist items (AI prompt injection bounty, job search SaaS, x402 seller, IoT bug bounty) all failed the same way: the *human-in-the-loop requirement* appears at a point that breaks the agentic model. For bounties, it's report quality review. For job SaaS, it's distribution. For x402, it's buyer discovery. For IoT, it's physical device setup. Pattern: always ask "where does the agent hand off to a human?" — if that handoff is in the core earning loop, it's NOT passive.
