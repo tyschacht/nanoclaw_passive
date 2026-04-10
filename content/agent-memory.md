@@ -82,6 +82,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "I found X Claude Code side hustles" videos (< 10K views) | Consistently surface human-managed freelance/consulting work where Claude is a drafting tool, not an agent. Not worth pulling transcripts. Skip unless channel is in High-Value Channels list or video > 10K views. | 2026-04-09 |
 | AI IoT hardware bug bounty as scalable income | Requires physical device acquisition per target class; can't be automated end-to-end; CFAA exposure for testing non-owned devices. Each $30K payout is an outlier accidental discovery, not a replicable workflow. | 2026-04-09 |
 | Bug bounty programs (direct prompt injection) | Direct prompt injection and jailbreaks are explicitly OUT OF SCOPE at Google AI VRP (the largest program). OpenAI and Microsoft only pay for cross-user harm or privilege escalation cases — hard to find systematically. | 2026-04-09 |
+| "AI payment protocol" = earn-side opportunity | Stripe MPP, x402, and similar "agents can pay for things" protocols are spend-side infrastructure. To EARN via these protocols you must run a service other agents pay for — which requires buyer discovery, not solved by the protocol. Unless specific earn-side programs are announced, skip these. | 2026-04-09 |
+| AI-generated content for platform distribution (audiobooks, games, videos) | All major distribution platforms (App Store, Audible/ACX, YouTube) have either banned AI-generated content or made discovery worse. Spotify audiobooks are the only exception — but require manual upload step + marketing for discovery. Pattern: any idea relying on platform organic discovery for AI-generated content will fail unless a specific discovery mechanism exists. | 2026-04-09 |
 
 ---
 
@@ -104,6 +106,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "Show HN" site:news.ycombinator.com "autonomous" "agent" | Web | Medium | HN Show HN posts with "autonomous" filter; surfaces real builders |
 | "Google reviews scraper" lead generation AI | Web/Reddit | Medium | Surfaces tools and services using review data for B2B outreach; growing category |
 | "AI lead generation" site:reddit.com/r/SideProject | Web | High | SideProject builders often share working tools with real revenue; filter for AI + lead gen |
+| "ambient business" AI agents | Reddit/Web | High | Run 5: community term for agentic passive income in r/AIIncomeLab; surfaces concrete practitioner experiments |
+| "agent bounty" USDC earn | Web/HN | Medium | Surfaces new agent task marketplaces (TaskMarket, BountyBook, ClawGig, AgentBounty.org); check new platforms every run |
+| "machine payments" OR "MPP" AI agents earn | Web | Low | Run 5: confirmed spend-side only for Stripe MPP; skip unless there's specific earn-side news |
 
 ---
 
@@ -116,19 +121,30 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | WordPress → Custom Site Conversion ($2K/site, Claude does 90%) | r/ClaudeAI thread, 661 upvotes | Research pricing, client acquisition funnel, agentic feasibility of client comms |
 | AI Swing Trading (Claude + OANDA API, 20% annual backtested) | r/ClaudeAI, 1,273 upvotes | Paper trading validation, risk parameters, broker API access |
 | OpenSwarm Autonomous Dev Team | HN: 47160980, 34 points; full Claude Code CLI orchestration for Linear/GitHub | Research whether this can be packaged as a sellable service; check ToS for autonomous PR submission |
-| Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | EVALUATED: Confirmed drain contract scam. Red herring report written. |
+| Kent Davis "AI Trading Bot" video | 12,876 views Apr 7 2026; source code shared | EVALUATED Run 3: Confirmed drain contract scam. Red herring report written. |
 | AI Prompt Injection Bug Bounty Hunting | r/bugbounty: Google paid $15K + $1,337 for Gemini prompt injection | EVALUATED Run 4: NOT_VIABLE. Report written. |
 | Claude Code IoT Protocol Reverse Engineering | DJI Romo $30K case | EVALUATED Run 4: NOT_VIABLE. Report written. |
-| Stripe Machine Payments Protocol for AI Agents | YouTube: "I Am Kunal" (CCJA5-JexPQ, 474 views Apr 9 2026); Stripe confirmed launched "Machine Payments" specifically for AI agents | Research: what exactly is the Stripe Machine Payments spec? Can agents EARN via it (not just spend)? What's the registration/setup flow? Check stripe.com/docs for machine-payments |
-| AI-Built Mobile Games for AdMob Revenue | r/passive_income score 320 (ID 1sdwj6k): solo dev built 3 App Store games with Cursor + Claude Code in 4 months; all generating passive AdMob income | Research: actual revenue figures per game; organic discovery rates for AI-built games; ASO automation feasibility; App Store ToS on AI content; Google Play vs iOS review process for AI games |
-| AI Research Reports for Small Businesses ($75/report) | r/AIIncomeLab score 53 (ID 1s6t8yv): $75/report using Perplexity + ChatGPT; 2 hours to produce; $340 month 1 | Note: client acquisition is bottleneck. Could be an upsell angle from Google Reviews lead intel pipeline — find SMBs with pain points via reviews → offer free competitive intel report → convert to $75/month. Research: can outreach + delivery be fully agentic? |
-| x402 First Live MCP Deployment (UK Data Endpoints) | r/modelcontextprotocol score 5 (ID 1sepntb): 24 UK data endpoints (property, weather, Companies House, DVLA) on official MCP Registry; $0.001 USDC/call on Base; no API keys | This is the first confirmed production x402 MCP deployment. Research: how many calls per day? What's the seller's actual earnings? Contact details or GitHub for the builder? |
-| BotStall Agent-to-Agent Commerce (Stripe-integrated) | YouTube: 60 Second Signals (XUNPxF8j16k, 83 views Apr 9 2026); BotStall marketplace where agents earn + spend real money, Stripe integration | Research: botstall.com — what tasks do agents complete? What are payouts? Is this live or pending? How does it differ from BountyBook/ClawGig? |
-| Needle Workflow Marketplace | YouTube: Needle product channel (Hm3FgS4cbs4, 136 views Mar 24 2026); describe workflow in plain language → auto-built → list on Needle Marketplace for others to buy | Research: needle.so or similar — what's the marketplace commission? What workflow types are selling? Build-once / sell-many model is distinct from SKILL.md loop |
-| skillsmd.store | Referenced in All About AI "Easy Claude Code Passive Income" video (5,877 views Apr 8); appears to be a marketplace for agent SKILL.md files | Research: what's on skillsmd.store? Who buys? What do sellers earn? Commission structure? |
-| AI Audiobook Publishing via AudioMint | YouTube: TechKnack Pro (aSTWmSEYsmI, Apr 9 2026); AI audiobooks published to Spotify/Audible/Apple Books via AudioMint platform | Research: audiomint.ai or similar — royalty rates on Spotify/Audible for AI-generated audio; is distribution fully automated?; ToS status for AI content on these platforms |
+| Stripe Machine Payments Protocol for AI Agents | YouTube: "I Am Kunal" (CCJA5-JexPQ, 474 views Apr 9 2026) | EVALUATED Run 5: NOT_VIABLE. MPP is spend-side only. Red herring report written. |
+| AI-Built Mobile Games for AdMob Revenue | r/passive_income score 320 (ID 1sdwj6k) | EVALUATED Run 5: NOT_VIABLE. App Store submission requires human; discovery requires marketing. Red herring report written. |
+| AI Research Reports for Small Businesses ($75/report) | r/AIIncomeLab score 53 (ID 1s6t8yv) | EVALUATED Run 5: NOT_VIABLE. Client acquisition (LinkedIn outreach) is irreducibly human. Red herring report written. |
+| BotStall Agent Commerce | YouTube: 60 Second Signals (XUNPxF8j16k); botstall.com with Stripe Connect | UPDATED Run 5: Still in beta sandbox (SPK virtual currency); real USD after 72h graduation; 17 products listed. Check in 60 days. |
+| skillsmd.store / SKILL.md marketplace | YouTube: All About AI "Easy Claude Code" video | EVALUATED Run 5: NOT_VIABLE. No paid marketplace exists. skills.sh is free directory. Red herring report written. |
+| AI Audiobooks via Spotify + ElevenLabs | YouTube: TechKnack Pro (aSTWmSEYsmI) | EVALUATED Run 5: NOT_VIABLE. "AudioMint" doesn't exist; Findaway Voices requires manual upload; Audible blocks AI. Red herring report written. |
+| x402 First Live MCP Deployment (UK Data Endpoints) | r/modelcontextprotocol score 5 (ID 1sepntb): 24 UK data endpoints on official MCP Registry | Still WATCHLIST: need actual earnings data from builder. |
+| Needle Workflow Marketplace | YouTube: Needle product channel (Hm3FgS4cbs4, 136 views Mar 24 2026) | Still WATCHLIST: no data found on live marketplace or revenue model. |
+| TaskMarket by Daydreams | DEV.to: OpSpawn case study — 11 agents on €8/mo VPS, USDC competition bounties | NEW Run 5 WATCHLIST: market.daydreams.systems — site mostly empty on visit. Need active bounty count and actual earnings data. Check in 60 days. |
 
 ---
+
+## Notes & Observations (Run 5 additions)
+
+- **Run 5 insight**: Stripe Machine Payments Protocol (MPP, launched March 18, 2026) is spend-side only. Agents pay for services via MPP; to EARN, you'd need to run a service other agents pay for. This is structurally identical to the x402 seller problem already documented. Pattern: any "AI agent payment protocol" announcement should immediately be evaluated for spend-side vs earn-side before deeper research.
+- **Run 5 insight**: The paid SKILL.md marketplace does not exist yet. skills.sh (Vercel, 87K+ skills, 135 HN pts) is a FREE directory. All other agent skills platforms (skillsmp.com, skillx.sh, agent-skills.cc) are also free. The open-source norm is strong. Don't revisit this until a paid marketplace with >100 HN points emerges.
+- **Run 5 insight**: YouTube API quota is shared across all session uses and exhausted quickly with parallel searches. In future runs, use web search (WebSearch tool) for YouTube discovery rather than the YouTube API. Only use the YouTube API for transcript pulls of specific high-value videos.
+- **Run 5 insight**: The "client acquisition bottleneck" pattern appears across ALL service-delivery ideas: AI research reports ($75/report), ElevenAgents voice bots, AI mobile games (discovery = marketing), x402 sellers (buyer discovery). Every single one has the same failure mode. Pattern: any idea where "the agent builds/creates the product" but relies on organic discovery or cold outreach for monetization will fail the agentic threshold.
+- **Run 5 insight**: TaskMarket (market.daydreams.systems) is a competition-based USDC bounty platform — agents compete and best submission wins. OpSpawn deployed 11 agents on a €8/month Hetzner VPS. Distinct from BountyBook (first-claim model). The site appeared mostly empty on visit. Check actual active bounties in 60 days.
+- **Run 5 insight**: BotStall (botstall.com) has real Stripe Connect graduation system (72-hour sandbox → real USD), 17 products at launch, $0.99-$49.99 price range. More structured than BountyBook. Check in 60 days for real transaction volume.
+- **Run 5 insight**: r/AIIncomeLab has a strong "ambient businesses" thread pattern (score 100+, ID 1sared9) coalescing around: agents as operators, outcome-based pricing, "100 True Fans" model with AI-cut costs. The community language is converging on "ambient business" as the canonical term for agentic passive income. Use this as a search term in future runs.
 
 ## Notes & Observations
 
