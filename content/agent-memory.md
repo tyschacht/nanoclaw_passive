@@ -77,6 +77,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | 0xWork (0xwork.org) | Agent task marketplace on Base — staking + reputation mechanism; CLI + SDK | Yes (REST API + CLI) | Placeholder stats as of April 2026; $AXOBOTL staking barrier; architectural quality is high; WATCHLIST until July 2026; NOT_VIABLE today | 2026-04-10 |
 | Coinbase CDP Agentic Wallets | First wallet infrastructure for AI agents — autonomous hold/spend/earn/trade on Base chain; pre-built Earn skill | Yes (CDP SDK) | Launched Feb 12, 2026; TEE-secured; x402 integrated; Yield Seeker is a ready-made product using this; NOT_VIABLE as income mechanism (5-15% APY needs huge capital) | 2026-04-10 |
 | Claude Managed Agents (Anthropic) | Cloud-hosted agent infrastructure — composable APIs for deploying autonomous agents at scale | Yes (REST API) | Launched April 8, 2026; $0.08/session/hour active runtime + standard API rates; used by Notion/Rakuten/Asana; makes deploying income-generating agents faster; not an income mechanism itself | 2026-04-10 |
+| Open-Meteo (open-meteo.com) | Free weather forecast API — GFS, ECMWF, UKMO, NWS ensemble data for 16-day forecasts | Yes (REST, free, no key required) | 100K requests/day free; key data source for Polymarket/Kalshi weather market trading bot; endpoint: `api.open-meteo.com/v1/forecast?models=gfs,ecmwf,ukmo_seamless` | 2026-04-10 |
+| WeatherBot.finance | Commercial automated weather trading bot for Polymarket — 4-model ensemble, Bayesian edge detection, Kelly criterion, 67+ cities | Yes (product, not API) | $0.015/trade or $0.03/winning trade; alternative to DIY bot; claimed 18-48% profit margins "in internal testing" (no audit); good reference for architecture pattern | 2026-04-10 |
 
 ---
 
@@ -102,6 +104,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Bug bounty programs (direct prompt injection) | Direct prompt injection and jailbreaks are explicitly OUT OF SCOPE at Google AI VRP (the largest program). OpenAI and Microsoft only pay for cross-user harm or privilege escalation cases — hard to find systematically. | 2026-04-09 |
 | "AI payment protocol" = earn-side opportunity | Stripe MPP, x402, and similar "agents can pay for things" protocols are spend-side infrastructure. To EARN via these protocols you must run a service other agents pay for — which requires buyer discovery, not solved by the protocol. Unless specific earn-side programs are announced, skip these. | 2026-04-09 |
 | AI-generated content for platform distribution (audiobooks, games, videos) | All major distribution platforms (App Store, Audible/ACX, YouTube) have either banned AI-generated content or made discovery worse. Spotify audiobooks are the only exception — but require manual upload step + marketing for discovery. Pattern: any idea relying on platform organic discovery for AI-generated content will fail unless a specific discovery mechanism exists. | 2026-04-09 |
+| "OpenClaw agent + TikTok/social media = passive income" | TikTok API does NOT allow fully automated audio selection + publishing for promotional content. Any workflow claiming OpenClaw/Claude generates TikTok content autonomously will have a human "add audio + hit publish" step. This is not passive. Pattern: if the video/post says "it only takes 60 seconds per post," that's still human-required. Skip unless the platform offers fully headless API publishing without content review steps. | 2026-04-10 |
+| Prediction market virtual currency platforms | Botstadium.ai pattern: platform looks like a real prediction market for AI agents but uses virtual currency (BotCoins) with no monetary value. Always check explicitly for "real money" or "USDC/USD" before investigating further. If the site says "no real money involved" or uses virtual tokens, it's not viable. | 2026-04-10 |
 
 ---
 
@@ -132,6 +136,8 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "AI agent" earn USD marketplace site:dev.to | Web | High | Run 8: DEV.to has practitioner-level technical writing about agent income that YouTube misses; "lilyevesinclair" is a reliable author (Claude-based agent, built toku.agency) |
 | toku.agency agent completed jobs | Web | High | Run 8: monitor toku.agency for growing job completion counts; check every 60 days |
 | "every way" OR "all ways" AI agent paid 2026 | Web/DEV.to | Medium | Surfaces comprehensive practitioner guides rather than clickbait YouTube tutorials |
+| "polymarket weather" OR "kalshi weather" trading bot | GitHub/YouTube/Web | High | Run 10: Surfaces open-source weather prediction market bots (suislanchez, alteregoeth-ai); documented $24K-$65K profits; GFS/ECMWF edge is structural and recurring |
+| "Open-Meteo" polymarket bot | GitHub/Web | High | Run 10: Pinpoints builders using free weather APIs for prediction market trading; more technical than generic "weather bot" searches |
 
 ---
 
@@ -164,8 +170,19 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | Claw Earn (aiagentstore.ai) | NEW Run 9 WATCHLIST: AI Agent Store's on-chain USDC jobs layer on Base. Beta. No documented payouts. Minimum 3 USDC per agent task. | Check alongside 0xWork in July 2026. |
 | TaskBounty (task-bounty.com) | NEW Run 9 WATCHLIST: Indie-built agent task marketplace; REST API; $50 signup credit for posters; referral $20 credit. Needs active bounty count. | Check in 60 days (June 2026). |
 | Claude Managed Agents (Anthropic, April 8 2026) | NEW Run 9 NOTE: Not a marketplace, but changes the implementation path for all our VIABLE strategies. $0.08/session/hour for managed infrastructure. Monitor for usage patterns that create new income mechanisms. | Monitor for emerging use cases monthly. |
+| Polymarket USD token migration | UPDATED Run 10: Migration from USDC.e to Polymarket USD (1:1 USDC-backed) is ongoing. All existing Polymarket bots (weather, arb, maker rebates, cross-platform) will need collateral handling update. Monitor polymarket.com/blog for migration timeline. | Monitor weekly. |
+| ClawGig (clawgig.ai) | UPDATED Run 10: Platform still active with `/api/v1/agents/register/autonomous` endpoint for no-human-operator agents. 9 readiness checks required before submitting proposals. Page still emphasizes "technical capability" with no documented agent earnings. USDC on Solana. | Still WATCHLIST — check in 60 days (June 2026) for actual paying gig activity. |
+| B.AI (b.ai) | NEW Run 10 NOTE: Global launch April 9, 2026. Full-stack AI+crypto infrastructure: Agent Wallet, MCP Server, OpenClaw Extension, BAIclaw desktop app. Enables agents to pay/get paid/exchange value. Same infrastructure-layer pattern as x402/httpay.xyz. NOT an income mechanism itself. | Monitor for earn-side programs or agent economy volume data. |
 
 ---
+
+## Notes & Observations (Run 10 additions)
+
+- **Run 10 insight**: Weather prediction market trading (Polymarket + Kalshi) is the strongest prediction-market opportunity yet documented — because the alpha is structural and model-driven, not opinion-based. The GFS/ECMWF update cycle creates fresh pricing gaps every 6 hours. Best documented: $2M+ (gopfan2), $65K (another trader, NY/London/Seoul), $24K+ (Ezekiel Njuguna, London). Open-Meteo API provides free 31-member GFS + ECMWF ensemble data. Kalshi KXHIGH series + Polymarket climate category both viable. Weather markets also eligible for 25% Polymarket maker rebate. Multiple open-source bots (suislanchez/polymarket-kalshi-weather-bot; alteregoeth-ai/weatherbot). This is DISTINCT from crypto direction bots, same-market arb, maker rebates, and cross-platform arb — it's its own alpha source.
+- **Run 10 insight**: toku.agency update — 589 agents, 1,372 services, 95+ open jobs but still only 1 confirmed completed job shown (MATLAB Bot). No real growth in completed jobs since last check. Platform appears to be accumulating agents/services without generating matching demand. Still viable in principle but income ceiling remains low. Maintain watchlist status; next check June 2026.
+- **Run 10 insight**: "OpenClaw TikTok content agent" is a recurring pattern — the agent generates the content but a HUMAN must add audio manually (TikTok API restriction) before publishing. Any workflow that says "Claude generates the TikTok carousel, human adds audio, posts in 60 seconds" is NOT passive income — it's human-assisted content creation. Skip future claims about "fully automated TikTok income" unless they document true end-to-end API publishing with audio.
+- **Run 10 insight**: HN search across Show HN for April 2026 shows shift in builder interest — more agent infrastructure tools (Zeroclawed agent gateway, SmolVM sandbox, TUI-use, swarm orchestration) and fewer income-generating tools. The agent infrastructure layer is getting deep tooling; the monetization layer still lags. Signal: more builders than earners.
+- **Run 10 insight**: Zoneless (HN: 47704260, 14 pts) — open-source Stripe Connect clone with $0.002 fees using USDC. Not an income mechanism itself but further confirms USDC-settled freelance/marketplace infrastructure is converging toward commodity. Monitor for any income-generating applications built on top.
 
 ## Notes & Observations (Run 9 additions)
 
