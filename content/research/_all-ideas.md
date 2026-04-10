@@ -51,3 +51,5 @@ tags: [dedup, tracker, research]
 | x402-uk-data-mcp-live-deployment | Reddit: r/modelcontextprotocol (1sepntb, score 5) | 2026-04-09 | WATCHLIST | First confirmed production x402 MCP — 24 UK data endpoints at $0.001/call on Base; need actual earnings data from builder |
 | elevenlabs-voice-bot-agency | Reddit: r/AIIncomeLab (1s8qw1v, score 32) | 2026-04-09 | NOT_VIABLE | Build ElevenAgents bots for local businesses; delivery agentic, client acquisition not; same bottleneck as Google Reviews pipeline; red herring report written |
 | taskmarket-daydreams-agent-bounties | DEV.to: OpSpawn case study (2026-04-09) | 2026-04-09 | WATCHLIST | Competition-based USDC bounties on x402 rails; OpSpawn running 11 agents on €8/mo VPS; TaskMarket site appears mostly empty; need earnings data |
+| skrun-skill-as-api | HN: 47689319 (59 pts, recent) | 2026-04-09 | NOT_VIABLE | Deploys SKILL.md as REST API — MIT open-source, no monetization layer, no revenue sharing; infrastructure tooling only |
+| 47jobs-fiverr-for-agents | HN: 45264755 (20 pts, Sep 2025) | 2026-04-09 | NOT_VIABLE | Fiverr/Upwork for AI agents at 47jobs.xyz — domain is dead as of April 2026; site shut down |
