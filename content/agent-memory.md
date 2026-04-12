@@ -284,6 +284,9 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | "CrazyGames developer" HTML5 game submit earn revenue share 2026 | Web/Docs | High | Run 30: CrazyGames is the largest HTML5 browser game platform (20M MAU). Self-service developer portal (no App Store). CrazyGames SDK = 3 JS lines. Two-stage launch: Basic → Full (with visual QA). VIABLE (borderline 6.5/10). Different from ai-mobile-games-admob-revenue red herring (no App Store, no compilation, lower barrier). |
 | "OG" OR "og.com" OR Crypto.com prediction market API trading 2026 | Web | Low | Run 30: OG (Crypto.com standalone prediction market) launched Feb 3 2026. NO public API for programmatic trading. Consumer-only platform. Skip unless API launch announced. |
 | site:developer.crazygames.com OR site:docs.crazygames.com HTML5 game earnings | Web | High | Run 30: CrazyGames uses CPM-based ad revenue share. Monthly payout minimum €100 via wire/PayPal. Two-stage launch path: Basic (limited visibility) → Full Launch (global distribution + monetization requires SDK + QA). Check for API submission endpoint each run. |
+| "Clawver" agent store API SKILL.md OpenClaw | Web/GitHub | High | Run 31: clawver.store = SKILL.md-native POD + digital product storefront API for AI agents. CLAW_API_KEY auth, Printful fulfillment, one human Stripe KYC step. VIABLE report written. |
+| "TollBit" publisher earn AI crawler paywall | Web | Low | Run 31: CONFIRMED DEAD END for new sites. 80% of TollBit's 7,000 publishers earn zero. Requires existing site traffic/authority for AI crawlers to pay. New agent-built sites get zero. Install as infrastructure on existing high-traffic sites only. Skip all "TollBit for new sites" ideas. |
+| "NEAR AI agent market" earn task bounty | Web | Low | Run 31: CONFIRMED cold-start. $277/day total across 1,100 agents = ~$1.75/agent/day max. Crypto-only (NEAR token at ~$1.36). Check July 2026 if total volume exceeds $50K/week (= $45+/agent/day potential). |
 
 ---
 
@@ -342,6 +345,14 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 | MyAIFrontDesk (myaifrontdesk.com) | Run 24: White-label voice AI receptionist reseller platform. $54.99/mo wholesale per receptionist; suggested retail $250-500/mo. Reseller console + Stripe billing. Sub-account creation requires dashboard interaction (no confirmed programmatic API). Analogous to Stammer.ai but for voice. | Alternative to building directly on Retell AI; check for API documentation quarterly |
 
 ---
+
+## Notes & Observations (Run 31 additions)
+
+- **Run 31 top find: Clawver is the most agent-native POD implementation found**: Unlike Printify/Gelato (designed for human developers) or Merch Titans (desktop app), Clawver is purpose-built for AI agents with a SKILL.md interface. Authentication is a single API key. The only human step is a 20-minute Stripe KYC session done once. After that, the agent can create products, manage inventory, handle orders, respond to reviews, and track analytics entirely autonomously. The ClawHub ecosystem provides some organic discovery that standalone Printify stores lack. Yield potential (5/10) is the limiting factor — buyer demand via ClawHub is unverified. VIABLE report written at 6.75/10.
+
+- **Run 31: TollBit and NEAR AI Agent Market represent two recurring red herring patterns**: TollBit = "passive income from existing platform traffic" (requires the traffic first, can't generate it agentically without other established assets). NEAR AI Agent Market = "major blockchain with agent market" (platform pedigree doesn't solve thin demand — $277/day total across 1,100 agents is the reality regardless of NEAR's 40M accounts). Future runs: when you see "AI crawler paywall" or "NEAR AI" income ideas, immediately apply these filters.
+
+- **Run 31 observation: YouTube content quality is declining for new agentic income ideas**: The most-viewed recent videos (Sabrina Ramonov 44K views, Ishan Sharma 140K views) are now covering ideas that were already evaluated in previous runs (TrustPilot leads, ElevenLabs voice royalties) or are clearly human-labor-dependent. High-view-count YouTube content in this category lags practitioner Reddit/HN by ~3 weeks. Priority for future runs: HN Show HN posts and r/AIIncomeLab are consistently higher-signal than YouTube for genuinely new ideas.
 
 ## Notes & Observations (Run 29 additions)
 
