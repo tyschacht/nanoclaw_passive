@@ -28,7 +28,7 @@ Revenue per app is modest ($5–15 one-time or $2.99–$9.99/month subscription)
 
 6. *Upload and submit*: Agent runs `asc publish appstore --submit --confirm --bypass-keychain` → uploads build → attaches metadata → triggers review submission. No browser. No GUI. Fully scriptable.
 
-7. *Monitor review*: Agent polls `asc submission-health` or `asc list builds` on a cron schedule. If review passes, app goes live and income begins. If rejected, Claude Code reads the rejection reason and either fixes the issue or flags for human review (5–10% of submissions get rejected for policy reasons requiring human judgment).
+7. *Monitor review*: Agent polls `asc submission-health` or `asc list builds` on a cron schedule. If review passes, app goes live and income begins. If rejected, Claude Code reads the rejection reason and either fixes the issue or flags for human review (~40% of first submissions get rejected; subsequent submissions for the same app have much lower rejection rates as policy compliance is established).
 
 8. *Updates*: Subsequent version updates use the same pipeline — `asc publish appstore` with a new version number. No additional human input after the initial code-signing setup.
 
@@ -39,12 +39,15 @@ Revenue per app is modest ($5–15 one-time or $2.99–$9.99/month subscription)
 - Reddit: r/SideProject "Built a 1k/mo Mac app because I was tired of my own messy files" (1slutee, April 2026)
 - GitHub: rudrankriyam/App-Store-Connect-CLI — scriptable headless CLI with 22 SKILL.md skills including `asc-xcode-build`, `asc-notarization`, `asc-signing-setup`, `asc-submission-health`
 - Apple Docs: App Store Connect REST API Review Submissions endpoint (2026)
+- Apple Docs: iTMSTransporter User Guide — `-assetFile` flag required in 2026 (old `-f` flag deprecated); supports `-apiKey`/`-apiIssuer` for headless auth
+- Substack: genaiunplugged.substack.com/p/build-macos-backup-app-claude-code — developer with zero Swift experience built production macOS backup app (delta sync, SHA256 verification, 410K+ file scale) in ~2hr of Claude Code prompting
+- WWDC25: developer.apple.com/videos/play/wwdc2025/324/ — App Store Connect API automation session
 
 ## Scores
 
 | Criterion | Score (1-10) | Notes |
 |---|---|---|
-| Agentic viability | 7 | Full build→sign→upload→submit pipeline is headless via App Store Connect CLI + bypass-keychain; app testing runs on the same macOS machine as Claude Code (no physical device needed unlike iOS); ~5-10% of submissions may require human rejection review |
+| Agentic viability | 7 | Full build→sign→upload→submit pipeline is headless via App Store Connect CLI + bypass-keychain; app testing runs on the same macOS machine as Claude Code (no physical device needed unlike iOS); ~40% first-submission rejection rate (drops sharply on subsequent versions once policy compliance established) |
 | Setup effort | 5 | One-time $99/yr Apple Developer account + Xcode + code signing setup (~1-2hr); harder than web-only platforms but comparable to iOS app factory |
 | Yield potential | 6 | $45–$1,000/month per app is the observed range; $300–$800/month realistic from a portfolio of 5–15 apps; ceiling at ~$2K/month without viral hit |
 | Risk | 8 | Legitimate Apple approved distribution; no ToS risk from using AI to write code; standard app review process |
