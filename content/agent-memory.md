@@ -1066,6 +1066,16 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
   - site:agentincome.io — new practitioner blog with documented case studies (add to each run's web search)
   - "nightly workflow" n8n subscription data intelligence — surfaces more data product cases
 
+## Notes & Observations (Run 66 addendum — late YouTube batch — 2026-05-12)
+
+- **Run 66 late YouTube: Ravn (ravn.gg) has new Emil Nielsen tutorials (May 10-11 2026)** — "Agentic Trading on Polymarket Using Ravn" (281 views) + "Claude Builds And Deploys Trading Strategy" (87 views). Does NOT change the NOT_VIABLE verdict from red-herrings-run59-wave12. Ravn remains a personal trading tool: capital-dependent, no strategy marketplace, no income from others' usage. Emil Nielsen is building Ravn in public — monitor in 60 days for any fee-on-volume or marketplace mechanism.
+
+- **Run 66 late YouTube: build-loop.ai is a course/community, not agentic income** — Promoted by Luuk Alleman's 46K-view "5 New Ways to Make Money with Claude" video (T4byWk4--bE, May 5 2026). build-loop.ai teaches building+selling AI agents to businesses for monthly retainers. No marketplace, no API, no revenue sharing. Pure training product. Skip all future "build-loop.ai" mentions.
+
+- **Run 66 late YouTube: Sharbel's May 4 Polymarket video (m2Z4Qy6bMZ0) does NOT cover builder codes** — Uses "Bulwark CLI" (not Bullpen CLI) for order execution. Covers only directional trading. Does not mention fee-on-volume mechanism. The builder codes V2 report was discovered through direct Polymarket docs research, not through YouTube content.
+
+- **Run 66 late YouTube: Nate Herk's "Build & Sell Claude Code Operating Systems" course (bCljOfCH8Ms, 163K views, May 1 2026)** — Describes building custom Claude Code OS configurations as a product to sell to businesses. This is a service/product business model requiring human client acquisition. Same bottleneck as all agency models. Not passive income. View count is genuinely high (163K) but the mechanism doesn't change.
+
 ## Notes & Observations (Run 66 additions — 2026-05-12)
 
 - **Run 66: Polymarket Builder Codes V2 is a genuinely new income mechanism** — Not a directional bet, not a market making rebate, not a copy trade. Builder Codes earn fees on ALL volume routed, win or lose. Register a builder code (one-time human login at polymarket.com/settings?tab=builder), then add the bytes32 `builder` field to every EIP-712 order struct. Fee: up to 100bps taker / 50bps maker per order. Betmoar confirmed: $92.94M/month volume, earns entirely via builder codes + grants. V2 launched April 28 2026 — old SDK broke April 22. Critical: the `py-clob-client` SDK must be v1.x+ for V2 compatibility. Search query for future runs: "polymarket builder code register fees V2 2026".
