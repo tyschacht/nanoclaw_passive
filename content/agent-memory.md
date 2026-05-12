@@ -1068,6 +1068,14 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
   - site:agentincome.io — new practitioner blog with documented case studies (add to each run's web search)
   - "nightly workflow" n8n subscription data intelligence — surfaces more data product cases
 
+## Notes & Observations (Run 66 addendum 4 — late HN batch — 2026-05-12)
+
+- **HN infrastructure maturity signal (May 2026)**: The three highest-scoring new agent posts on HN in May 2026 are all infrastructure tools — Tilde.run (203 pts, transactional filesystem), Airbyte Agents (153 pts, enterprise data layer), re_gent (123 pts, version control for agents). The income mechanism posts score 6-14. This indicates the HN community's focus has shifted from "can agents earn money?" to "how do agents operate reliably?" — a market maturity signal. Practical implication: expect diminishing HN signal for new income mechanisms; the good ones are already in the library.
+
+- **Truuze/StreetAI (HN 48100248, score 6, May 11 2026)** — Another "Fiverr for AI agents" clone. 14th+ cold-start instance. 47jobs (HN Sep 2025) is already dead (domain down); Truuze appears to be iteration 2 of the same idea. Pattern closed.
+
+- **Google AP2** — Google's agent payment protocol from September 2025. Spend-side infrastructure, same category as x402, AWS AgentCore, and Stripe MPP. The combination of Google AP2 + AWS AgentCore + x402 = all three major cloud platforms have now endorsed the spend-side agent payment ecosystem. This is strong validation that the earn-side opportunities (x402-boring-utility-data-apis, self-hosted-paid-mcp-stripe-cloudflare, MCP marketplaces) have durable buy-side demand from enterprise agent fleets.
+
 ## Notes & Observations (Run 66 addendum 3 — late web batch — 2026-05-12)
 
 - **Run 66 late web: MCP-Hive, Needle, Kalshi, Gumroad CLI all independently re-discovered** — A web sweep independently found MCP-Hive (per-invocation marketplace), Needle.app (earn-per-run), Kalshi Liquidity Incentives, and Gumroad CLI v0.5.0 as top candidates — all four already in the library as VIABLE from earlier runs. This confirms the library is comprehensive and not missing obvious opportunities. The same independent rediscovery validates those four reports with no new information needed.
