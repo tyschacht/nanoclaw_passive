@@ -1066,6 +1066,16 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
   - site:agentincome.io — new practitioner blog with documented case studies (add to each run's web search)
   - "nightly workflow" n8n subscription data intelligence — surfaces more data product cases
 
+## Notes & Observations (Run 66 addendum 2 — late Reddit batch — 2026-05-12)
+
+- **Run 66 late Reddit: Google Stitch + Antigravity = agentic build pipeline, but no native marketplace** — Google Stitch (Google Labs, May 2025) + Antigravity (Google, Nov 2025) can go from text prompt to deployable full-stack app in ~30 min with no human clicking. Stitch SDK + MCP server are fully programmatic. Antigravity deploys to Vercel/Cloudflare. BUT: zero native marketplace or revenue sharing on either platform. The income claim in r/AIIncomeLab (1sqgxza, score 25, Apr 20 2026) is client service billings, not passive income. Pattern: "agentic build tool + no native marketplace = speed multiplier for agency/freelance work, not passive income." Future runs: skip all "Google Stitch" or "Antigravity" passive income posts unless a specific selling marketplace with organic discovery is described.
+
+- **Run 66 late Reddit: Chrome extension MRR confirms existing VIABLE report** — r/chrome_extensions 1t6x49d ($100 MRR, score 83) + 1tag6m2 ($147 single day, score 36) + 1slp0z7 (50% paid conversion on AI/Apps-Script tool, score 28) all validate chrome-extension-v2-api-autonomous (VIABLE, 7/10). 50% paid conversion rate in 1slp0z7 is the strongest commercial signal seen for Chrome extensions — AI tools embedded into developer workflows (Google Apps Script editor, spreadsheet formulas) convert significantly better than consumer-facing extensions. Key niche signal: *developer tools in Google Workspace* have higher paid conversion than general productivity extensions.
+
+- **Run 66 late Reddit: r/passive_income 1soagnl (OpenClaw crypto trading bot, score 119, Apr 17 2026)** — Author built a self-hosted OpenClaw crypto trading bot, calling out $200/mo subscription services. This is capital-dependent crypto trading (same pattern as alpaca-openclaw-stock-trading-bot red herring, -$367 documented in 30-day test). Building the bot is agentic but income = capital at risk. NOT new viable mechanism.
+
+- **Run 66 late Reddit: r/AIIncomeLab 1sw9jbp (two-tool AI eBay pipeline, score 21, Apr 26 2026)** — Specific AI tools for eBay store operations but eBay already in dedup as NOT_VIABLE (ebay-inventory-api-digital-goods, 5.25/10 due to approved-seller gate + wrong platform for digital goods). No new insight.
+
 ## Notes & Observations (Run 66 addendum — late YouTube batch — 2026-05-12)
 
 - **Run 66 late YouTube: Ravn (ravn.gg) has new Emil Nielsen tutorials (May 10-11 2026)** — "Agentic Trading on Polymarket Using Ravn" (281 views) + "Claude Builds And Deploys Trading Strategy" (87 views). Does NOT change the NOT_VIABLE verdict from red-herrings-run59-wave12. Ravn remains a personal trading tool: capital-dependent, no strategy marketplace, no income from others' usage. Emil Nielsen is building Ravn in public — monitor in 60 days for any fee-on-volume or marketplace mechanism.
