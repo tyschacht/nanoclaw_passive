@@ -617,6 +617,20 @@ tags: [memory, agent, reference, subreddits, channels, platforms]
 
 ---
 
+## Notes & Observations (Run 84 additions — 2026-05-29)
+
+- **Run 84: Custom-generated AI deliverables via Whop are a distinct viable model from static digital products**: The brand voice persona service (custom-ai-brand-voice-whop, 7.25/10) differs from reddit-pain-point-whop-product-loop and hyper-niche-etsy-digital-products because each delivery is generated fresh by Claude per customer intake form — not a pre-made file. The per-order COGS is ~$0.05–$0.15 (Claude API), not zero. The key upside: Whop's marketplace handles discovery, and the product cannot be pirated since it's uniquely generated per buyer. Price point sweet spot: $197 launch → $497 at 10 reviews. Watch for: Tally webhooks reliability at scale, and whether Whop's category placement surfaces the product to the right buyers.
+
+- **Run 84: Trades-vertical voice AI is agency model + high client prerequisites**: SpeakNode (speaknode.com, by Latenode parent company) + Latenode + Housecall Pro MAX ($329/mo client-side) is a real and documented stack. But the $329/mo MAX prerequisite is a strong sales objection, SpeakNode's API is login-gated, and Avoca AI ($125M raised, $1–3K/mo) is already commoditizing the high-value end. Do NOT create a report for any voice AI trades vertical idea unless: (1) Housecall Pro reduces API access tier below $329/mo, OR (2) Jobber GraphQL (which has no tier restriction) is used instead. Jobber API requires GraphQL-only (no REST), but has no MAX-equivalent barrier.
+
+- **Run 84: API arbitrage micro-SaaS is now permanently covered by existing reports**: Chris Koerner's "Tiny Tools Making Millions" (50iWtrj9Mkw, 63K views) is the highest-production articulation of wrapping Apify/Clay/OpenAI into niche SaaS products. But the mechanism is fully captured by github-action-claude-microsaas (7.5/10), n8n-data-intelligence-subscription (7.25/10), and apify-mcp-server-actor (7.5/10). Any future YouTube video about "wrapping APIs into SaaS" should be immediately cross-referenced against these three existing reports. Do not create a new report unless the video names a NEW distribution channel or specific platform not already covered.
+
+- **Run 84: Invoice/document processing automation needs a SMB discovery channel before it's viable**: The Gmail → Gemini → Google Drive invoice processing pipeline (r/AiAutomations post) is technically excellent and fully agentic. The missing piece: SMBs who need this don't browse Whop. They find tools via Google Search, QuickBooks App Store (undocumented creator program?), Xero Marketplace, or their accountant. Future evaluation trigger: IF QuickBooks Online App Store or Xero Marketplace is confirmed to have a self-service listing API with developer revenue share, then the invoice automation play becomes viable. Check QuickBooks Developer Program (developer.intuit.com) for marketplace listing options.
+
+- **Run 84: r/AiAutomations is producing specific stack-level content (best subreddit for implementation details)**: This week's r/AiAutomations posts included: SpeakNode + Latenode + Housecall Pro tool-call schema (1tqgwc0), n8n + Gemini invoice processing pipeline (1tqiroy), brand-voice AI tool at $497–997 (1tqq91k), and "boring automations for trades" mechanics (1tq5i9b). All had specific stack names, tool versions, and dollar figures. This is now the highest-signal subreddit for agentic implementation details — higher than r/AIIncomeLab for concrete stack information.
+
+---
+
 ## Notes & Observations (Run 83 additions — 2026-05-28)
 
 - **Run 83: Broad keyword sweeps confirmed <5% signal-to-noise at 290+ evaluated ideas**: This run found zero new VIABLE ideas across YouTube (4 queries + 1 transcript), 40 HN Show HN posts, 5 subreddits, and 12+ web searches. All promising leads resolved to known red herring patterns. Confirms Run 82 observation: shift toward targeted watchlist checks and same-day tech press monitoring.
