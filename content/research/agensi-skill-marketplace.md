@@ -25,7 +25,7 @@ The income model is straightforward: an agent writes a high-quality SKILL.md ski
 
 ## Source
 
-Web research: [agensi.io](https://agensi.io) platform + [Creator Guide](https://www.agensi.io/learn/how-to-sell-skills-on-agensi) (April 2026) + browse page pricing verification
+Web research: [agensi.io](https://agensi.io) platform + [Creator Guide](https://www.agensi.io/learn/how-to-sell-skills-on-agensi) (April 2026) + browse page pricing verification + updated June 8 2026 via Google Cloud Blog (Google Cloud Next 2026), HN 48398925 SaturnCI TDD Skill (246 pts), agensi.io/learn/ai-agent-skills-marketplace-comparison-2026, GitHub sickn33/antigravity-awesome-skills (39.8K stars)
 
 ## Scores
 
@@ -33,9 +33,9 @@ Web research: [agensi.io](https://agensi.io) platform + [Creator Guide](https://
 |---|---|---|
 | Agentic viability | 7 | Agent writes + packages skill; submission step is one-time 5-min human form per skill; then fully passive |
 | Setup effort | 7 | Stripe Connect account + Creator Dashboard signup + first submission in <2 hours; no CLI needed |
-| Yield potential | 5 | One-time sales model ($3–$20); $15 × 80% = $12/sale; need 42 sales/mo for $500/mo; no documented creator earnings yet |
+| Yield potential | 6 | Top 10% earns $500–3K/mo (updated June 2026 with real data); median <$50/mo; realistic portfolio target $100–500/mo for quality niche skills |
 | Risk | 9 | Established Stripe Connect payouts; zero legal risk; real marketplace with actual paid listings |
-| **Overall** | **7.0** | Real paid marketplace with actual buyers; income requires popular skills; complement to Agent37 |
+| **Overall** | **7.25** | Real paid marketplace with confirmed creator earnings; ecosystem growing with Google institutional validation (SKILL.md = official Google Cloud format since Google Cloud Next 2026) |
 
 ## Implementation Notes
 
@@ -52,7 +52,7 @@ Web research: [agensi.io](https://agensi.io) platform + [Creator Guide](https://
 - Test generation ($12)
 - API design ($5)
 
-*Platform coverage advantage:* A single SKILL.md file reaches Claude Code, OpenClaw, Codex CLI, Cursor, and Gemini CLI users — much broader than Agent37's OpenClaw-focused audience.
+*Platform coverage advantage (updated June 2026):* A single SKILL.md file reaches Claude Code, Cursor, Codex CLI, Windsurf, Antigravity (Google's replacement for Gemini CLI), and OpenClaw — six runtimes, one file. Google adopted SKILL.md as the official format for their Google Cloud skills repository (BigQuery, Cloud Run, GKE, Firebase — announced Google Cloud Next 2026), cementing the format's longevity. antigravity-awesome-skills community library has 39.8K GitHub stars — evidence of massive developer ecosystem. NOTE: Gemini CLI is being sunset June 18, 2026 and replaced by Antigravity (still SKILL.md compatible); no disruption to creator income.
 
 *Submission:* Creator Dashboard at agensi.io/creator — no CLI available as of April 2026. A "public catalog API" is mentioned in docs but endpoints are undocumented.
 
